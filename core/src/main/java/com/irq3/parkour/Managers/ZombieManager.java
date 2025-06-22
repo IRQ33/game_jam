@@ -34,8 +34,8 @@ public class ZombieManager {
         zombies = new ArrayList<>();
         zombies.add(new Zombie(500,500, 1f,player,game, level));
         zombies.add(new Zombie(700,100, 1f,player,game, level));
-//        zombies.add(new Zombie(900,-200, 1f,player,game, level));
-//        zombies.add(new Zombie(-300,500, 1f,player,game, level));
+        zombies.add(new Zombie(900,-200, 1f,player,game, level));
+        zombies.add(new Zombie(-300,500, 1f,player,game, level));
     }
 
     public void update()
